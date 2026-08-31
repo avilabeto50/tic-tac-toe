@@ -51,17 +51,4 @@ def choose_move(game, player):
     # Step 3: return the position number you chose.
     return my_choice
 
-    # ---------------------------------------------------------------
-    # Ideas to try (don't peek until you've thought about it!):
-    #
-    #   - Can you pick a random position instead of always the first?
-    #     Hint: look up the "random" module.
-    #
-    #   - What if you always grab the center (position 5) when it's free?
-    #
-    #   - Can you check if you are one move away from winning and
-    #     take that move?
-    #
-    #   - Can you check if your opponent is one move away from winning
-    #     and block them?
-    # ---------------------------------------------------------------
+
