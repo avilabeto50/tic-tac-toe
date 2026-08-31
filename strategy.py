@@ -38,10 +38,10 @@ def choose_move(game, player):
     """
 
     # ---------------------------------------------------------------
-    # Starter behavior: always pick the first open square.
-    # This is legal but not very smart — replace it with your own idea!
+    # Starter behavior: always pick the first open square. (this is a dumb strategy, don't use it)
     # ---------------------------------------------------------------
-
+    # remember YOU are X. X goes first. 
+    
     # Step 1: find out which moves are still available.
     open_squares = game.available_moves()
 

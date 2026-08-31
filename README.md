@@ -21,35 +21,38 @@ function so it implements your own tictactoe strategy.
 
 ## Getting started
 
+> **Codespaces not working?** See [local.md](local.md) for instructions on running the project on your own computer (Windows or Mac).
+
 ### 1 — Fork this repository
 
 1. Click the **Fork** button at the top-right of this GitHub page.
 2. GitHub will create a personal copy of the repo under your account.
 
-### 2 — Clone your fork to your computer
+### 2 — Open a Codespace
 
-Open a terminal and run (replace `YOUR-USERNAME` with your GitHub username):
-
-```bash
-git clone https://github.com/YOUR-USERNAME/tic-tac-toe-starter.git
-cd tic-tac-toe-starter
-```
+1. On **your fork's** GitHub page, click the green **`<> Code`** button.
+2. Select the **Codespaces** tab.
+3. Click **"Create codespace on main"**.
+4. Wait a moment — GitHub will launch a full VS Code editor in your browser. No installs needed!
 
 ### 3 — Run the starter code
+
+Inside the Codespace, open the **Terminal** (`` Ctrl+` `` or **Terminal → New Terminal**) and run:
 
 ```bash
 python play.py
 ```
 
 You should see the board printed after each move, ending with a result.
-Right now the program has a dumb strategy. You can implement a better one. 
+Right now the program has a dumb strategy. You can implement a better one.
 
 ### 4 — Edit `strategy.py`
 
-Open `strategy.py` in any text editor.  Read the comments, then replace
-the starter logic inside `choose_move` with your own strategy
+1. In the file explorer on the left, click **`strategy.py`** to open it.
+2. Read the comments, then replace the starter logic inside `choose_move` with your own strategy.
+3. Save the file (`Ctrl+S`), then run `python play.py` again to test it.
 
-Run `python play.py` as many times as you like to test your changes.
+Repeat steps 2–3 as many times as you like.
 
 ---
 
@@ -109,13 +112,15 @@ Paste the link to **your fork** on GitHub into the assignment submission
 form.  It will look like:
 
 ```
-https://github.com/YOUR-USERNAME/tic-tac-toe-starter
+https://github.com/YOUR-USERNAME/tic-tac-toe
 ```
 
-Make sure your latest changes are pushed before the end of class:
+Before submitting, make sure your changes are saved and pushed. In the Codespace terminal, run:
 
 ```bash
 git add strategy.py
 git commit -m "My tic-tac-toe strategy"
 git push
 ```
+
+Then check your fork on GitHub to confirm the updated `strategy.py` is there.
