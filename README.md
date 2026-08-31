@@ -1,2 +1,2 @@
 # tic-tac-toe
-A simple tic0tac0toe program
+A simple tic-tac-toe program
